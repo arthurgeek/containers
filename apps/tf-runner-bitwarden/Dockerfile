@@ -3,7 +3,7 @@ FROM hashicorp/terraform:1.5.6 as tf
 FROM ghcr.io/weaveworks/tf-runner:main-6188e8dd
 
 # renovate: datasource=npm depName=@bitwarden/cli versioning=npm
-ARG BW_CLI_VERSION=2023.7.0
+ARG BW_CLI_VERSION=2023.8.2
 
 USER root
 
