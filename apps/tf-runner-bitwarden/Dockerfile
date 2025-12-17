@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:1.6.6 as tf
+FROM hashicorp/terraform:1.14.3 as tf
 
 FROM ghcr.io/weaveworks/tf-runner:main-6188e8dd
 
